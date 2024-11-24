@@ -1,0 +1,80 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Gun : MonoBehaviour
+{
+    [SerializeField] GameObject muzzel;
+    [SerializeField] Transform muzzelPos;
+    [SerializeField] GameObject projectile;
+    [Header("Config")]
+    [SerializeField] float fireDistance = 10;
+    [SerializeField] float fireRate = 0.5f;
+    Transform player;
+    Vector2 offset;
+    private float timeSinceLastShot = 0f;
+    Transform closestEnemy;
+    Animator animator;
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+        timeSinceLastShot = fireRate;
+        player = GameObject.Find("Player").transform;
+        SetOffset(new Vector2(1, 0.5f));
+    }
+    private void Update()
+    {
+        transform.position = (Vector2)player.position + offset;
+        FindClosestEnemy();
+        AimEnemy();
+        Shooting();
+    }
+    void FindClosestEnemy()
+    {
+        closestEnemy = null;
+        Enemy[] enemies = FindObjectsOfType<Enemy>();
+        foreach (Enemy enemy in enemies)
+        {
+            float distance = Vector2.Distance(transform.position, enemy.transform.position);
+            if(distance < fireDistance)
+            {
+                closestEnemy = enemy.transform;
+            }
+        }
+    } 
+    void Shooting()
+    {
+        if (closestEnemy != null)
+        {
+            timeSinceLastShot += Time.deltaTime;
+            if(timeSinceLastShot > fireRate)
+            {
+                Shoot();
+                timeSinceLastShot = 0;  
+            }
+        }
+    }
+    void Shoot()
+    {
+        var muzzltGo = Instantiate(muzzel, muzzelPos.position, transform.rotation);
+        muzzltGo.transform.SetParent(transform);
+        Destroy(muzzltGo, 0.05f);
+        var projectileGo = Instantiate(projectile, muzzelPos.position, transform.rotation);
+        Destroy(projectileGo, 3f);
+    }
+    void AimEnemy()
+    {
+        if (closestEnemy != null)
+        {
+            Vector3 diretion = closestEnemy.position - transform.position;
+            diretion.Normalize();
+            float angle = Mathf.Atan2(diretion.y, diretion.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, angle);
+            transform.position = (Vector2)player.position + offset;
+        }
+    }
+    void SetOffset(Vector2 o)
+    {
+        offset = o;
+    }
+}

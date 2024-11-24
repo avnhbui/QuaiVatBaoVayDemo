@@ -1,0 +1,46 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GameManager : MonoBehaviour
+{
+    // Start is called before the first frame update
+    public GameObject shopUI;
+    public GameObject gunPrefab; // Prefab của súng
+    public ItemInfoDisplay itemInfoDisplay;
+    void Start()
+    {
+        string gunnamaa = PlayerPrefs.GetString("GunName");
+        Debug.Log(gunnamaa);
+        InstantiateGun(); 
+    }
+    void InstantiateGun()
+    {
+        GameObject gunInstance = Instantiate(gunPrefab);
+        DragDrop gun = gunInstance.GetComponent<DragDrop>();
+
+        gun.itemInfoDisplay = itemInfoDisplay; 
+
+        // Sau khi gán, bạn có thể hiển thị thông tin từ prefab
+        gun.itemInfoDisplay.ShowItemInfo(gun.gunInfo);
+    }
+public void ChangeScene()
+    {
+        SceneManager.LoadScene("PlayGame");
+        Time.timeScale = 1.0f;
+    }
+    public void GoToSceneLobby()
+    {
+        SceneManager.LoadScene("Lobby");
+        
+    }
+    public void OpenShop()
+    {
+        shopUI.SetActive(true);
+    }
+    public void CloseShop()
+    {
+        shopUI.SetActive(false);
+    }
+}

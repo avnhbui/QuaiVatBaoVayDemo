@@ -1,0 +1,54 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class GunManager : MonoBehaviour
+{
+    [SerializeField] GameObject gunPref;
+    Transform playerTrans;
+    List<Vector2> gunPosition = new List<Vector2>();
+    int spawnedGun = 0;
+
+    public GameObject[] gunPrefabs; // Danh sách các loại súng
+    public Transform[] spawnPositions;
+    private void Start()
+    {
+        playerTrans = GameObject.Find("Player").transform;
+        gunPosition.Add(new Vector2(-1.47f, -0.74f));
+        gunPosition.Add(new Vector2(-1.47f, 0.74f));
+        gunPosition.Add(new Vector2(1.47f, -0.74f));
+        gunPosition.Add(new Vector2(1.47f, 0.74f));
+        AddGun();
+        
+
+    }
+    void AddGun()
+    {
+        // Kiểm tra nếu đã hết số lượng súng cần spawn
+        if (spawnedGun < gunPosition.Count && spawnedGun < gunPrefabs.Length)
+        {
+            var pos = gunPosition[spawnedGun]; // Lấy vị trí spawn từ gunPosition
+
+            // Chọn súng từ danh sách gunPrefabs dựa trên index của spawnedGun
+            GameObject selectedGun = gunPrefabs[spawnedGun];
+
+            // Spawn súng tại vị trí
+            var newGun = Instantiate(selectedGun, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
+
+            // Nếu súng có script Gun, thiết lập offset
+            if (newGun.TryGetComponent(out Gun gunScript))
+            {
+                gunScript.SetOffset(pos);
+            }
+
+            spawnedGun++; // Tăng số súng đã spawn
+            Debug.Log("Spawned gun number: " + spawnedGun);
+        }
+        else
+        {
+            Debug.LogWarning("No more guns to spawn or exceeded gun position limit.");
+        }
+        Debug.Log(spawnedGun);
+    }
+}

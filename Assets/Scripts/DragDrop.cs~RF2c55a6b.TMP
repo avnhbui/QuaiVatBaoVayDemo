@@ -1,0 +1,98 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
+public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler
+{
+
+    private RectTransform rectTransform;
+    private CanvasGroup canvasGroup;
+
+    public static GameObject itemBeingDragged;
+    Vector3 startPosition;
+    Transform startParent;
+    public GunInfor gunInfo; // Tham chiếu tới GunInfor
+    public ItemInfoDisplay itemInfoDisplay;
+    private void Awake()
+    {
+
+        rectTransform = GetComponent<RectTransform>();
+        canvasGroup = GetComponent<CanvasGroup>();
+
+    }
+    private void Start()
+    {
+        if (itemInfoDisplay == null)
+        {
+            itemInfoDisplay = FindObjectOfType<ItemInfoDisplay>();
+        }
+
+        // Hiển thị thông tin từ gunData lên UI
+        if (itemInfoDisplay != null && gunInfo != null)
+        {
+            itemInfoDisplay.ShowItemInfo(gunInfo);
+        }
+    }
+    void Update()
+    {
+        // Cập nhật vị trí của info panel theo chuột
+        if (itemInfoDisplay.infoPanel.activeSelf)
+        {
+            Vector3 mousePos = Input.mousePosition;
+            itemInfoDisplay.UpdateInfoPanelPosition(mousePos);
+        }
+    }
+
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        itemInfoDisplay.ShowItemInfo(gunInfo);
+    }
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        itemInfoDisplay.HideItemInfo();
+    }
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+
+        canvasGroup.alpha = .6f;
+        //So the ray cast will ignore the item itself.
+        canvasGroup.blocksRaycasts = false;
+        startPosition = transform.position;
+        startParent = transform.parent;
+        transform.SetParent(transform.root);
+        itemBeingDragged = gameObject;
+
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        //So the item will move with our mouse (at same speed)  and so it will be consistant if the canvas has a different scale (other then 1);
+        rectTransform.anchoredPosition += eventData.delta;
+
+    }
+
+
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+
+        itemBeingDragged = null;
+
+        if (transform.parent == startParent || transform.parent == transform.root)
+        {
+            transform.position = startPosition;
+            transform.SetParent(startParent);
+
+        }
+
+        canvasGroup.alpha = 1f;
+        canvasGroup.blocksRaycasts = true;
+    }
+
+
+
+}

@@ -1,0 +1,358 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|c:\\users\\lequy\\my project (1)\\evolut.ion\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|c:\\users\\lequy\\my project (1)\\evolut.ion\\assets\\scripts\\dragdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dragdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\gunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\slottype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slottype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\cameraforcus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraforcus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\guninfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guninfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\iteminfodisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iteminfodisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\damagepopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagepopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\player1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\killmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\killmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\gameassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|C:\\Users\\lequy\\My project (1)\\Evolut.ion\\assets\\scripts\\basicmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB1F39A-DD58-7F9F-98C2-A1F823E899C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basicmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T15:01:21.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CameraForcus.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\CameraForcus.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraForcus.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\CameraForcus.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraForcus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:50:55.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SlotType.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\SlotType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SlotType.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\SlotType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SlotType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:29:50.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gun.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\Gun.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gun.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\Gun.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gun.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAcwG0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T00:19:40.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GunManager.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\GunManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GunManager.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\GunManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GunManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:42:30.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DragDrop.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\DragDrop.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DragDrop.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\DragDrop.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DragDrop.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAqwGMAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:20:52.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjecTile.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\ProjecTile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProjecTile.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\ProjecTile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProjecTile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T00:43:27.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:36:59.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Item.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\Item.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T22:50:28.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ItemInfoDisplay.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\ItemInfoDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemInfoDisplay.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\ItemInfoDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemInfoDisplay.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T22:40:22.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GunInfor.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\GunInfor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GunInfor.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\GunInfor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GunInfor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:34:48.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InventorySystem.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\InventorySystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InventorySystem.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\InventorySystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InventorySystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:23:04.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ItemSlot.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\ItemSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSlot.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\ItemSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemSlot.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwC0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:22:01.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KillManager.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\KillManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KillManager.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\KillManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KillManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T02:51:29.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GameAssets.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\GameAssets.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameAssets.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\GameAssets.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameAssets.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T02:01:58.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DamagePopup.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\DamagePopup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DamagePopup.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\DamagePopup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DamagePopup.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T01:54:46.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T00:09:58.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EnemyManager.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\EnemyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyManager.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\EnemyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:51:41.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:29:09.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Player1.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\Player1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player1.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\Player1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:21:00.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "basicmovement.cs",
+              "DocumentMoniker": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\basicmovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\basicmovement.cs",
+              "ToolTip": "C:\\Users\\lequy\\My project (1)\\Evolut.ion\\Assets\\Scripts\\basicmovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\basicmovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:40:40.806Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

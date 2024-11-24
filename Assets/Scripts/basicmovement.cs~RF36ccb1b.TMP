@@ -1,0 +1,72 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+public class basicmovement : MonoBehaviour
+{
+    public float moveSpeed = 5f; // T?c ?? di chuy?n c?a nhân v?t
+    public Animator animator;    // Animator c?a nhân v?t
+
+    private Vector3 moveDirection;
+    private bool isDancing = false;
+
+    void Update()
+    {
+        MoveCharacter();
+        HandleEmotion();
+    }
+
+    void MoveCharacter()
+    {
+        // Nh?n input t? ng??i ch?i
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
+
+        // T?o Vector cho h??ng di chuy?n
+        moveDirection = new Vector3(moveX, 0f, moveZ).normalized;
+
+        if (moveDirection.magnitude >= 0.1f && !isDancing)
+        {
+            // Di chuy?n nhân v?t
+            transform.Translate(moveDirection * moveSpeed * Time.deltaTime, Space.World);
+
+            // Kích ho?t animation di chuy?n
+            animator.SetBool("isMoving", true);
+
+            // Xoay nhân v?t theo h??ng di chuy?n
+            Quaternion newRotation = Quaternion.LookRotation(moveDirection);
+            transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime * 10f);
+        }
+        else
+        {
+            // T?t animation di chuy?n n?u không di chuy?n
+            animator.SetBool("isMoving", false);
+        }
+    }
+
+    void HandleEmotion()
+    {
+        // Ki?m tra n?u ng??i ch?i b?m phím "E" và không ?ang trong tr?ng thái "Dance"
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (!isDancing)
+            {
+                // Kích ho?t emotion "Dance"
+                isDancing = true;
+                animator.SetTrigger("Dance");
+
+                // Vô hi?u hóa di chuy?n trong khi ?ang "Dance"
+                StartCoroutine(StopDancing());
+            }
+        }
+    }
+
+    // Coroutine ?? ng?ng tr?ng thái "Dance" sau m?t th?i gian
+    System.Collections.IEnumerator StopDancing()
+    {
+        yield return new WaitForSeconds(2.0f); // ??t th?i gian tùy theo th?i l??ng animation "Dance"
+        isDancing = false;
+    }
+}
+

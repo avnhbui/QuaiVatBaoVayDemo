@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df146f35685a0ba46b7594bcbe65ce2a, type: 3}
+  m_Name: "R\xECu Chi\u1EBFn"
+  m_EditorClassIdentifier: 
+  gunSprite: {fileID: 1109524956, guid: 94f7e36eed89daf4bbdc1d6c9fbf0fb8, type: 3}
+  gunName: "R\xECu Chi\u1EBFn"
+  fireDamage: 15
+  fireRate: 3
+  fireRange: 2
+  fireSpeed: 15
+  lifeSteal: 0
+  critRate: 0
+  critDmg: 0
